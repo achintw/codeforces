@@ -6,7 +6,7 @@ void solve(){
      ll n;
         cin >> n;
         ll arr[n];
-        set<ll> s;
+        set<ll> s;   // can also use deque (preferred)
         for (ll i = 0; i < n; i++)
         {
             cin >> arr[i];
