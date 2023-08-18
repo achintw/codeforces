@@ -7,8 +7,8 @@ using namespace std;
 
 void solve(){
     
-    int n, T;
-    cin >> n >> T;
+    int n;
+    cin >> n;
     vector<ll> a(n);
     for(ll i=0; i<n; i++) cin >> a[i];
     
