@@ -11,7 +11,7 @@ void solve() {
         cin >> a[i];
     }
     /*
-        Just change a[0], sum=a[0]+mid
+        Just change sum=a[0]+mid
         as a[i]/sum <= k/100
         => a[i] <= sum*k/100
         => if a[i] is greater, 
