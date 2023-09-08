@@ -10,7 +10,16 @@ void solve() {
     for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
-    ll l = 0, r = 1e14, ans = 0; // Initialize ans
+    /*
+        Just change a[0], sum=a[0]+mid
+        as a[i]/sum <= k/100
+        => a[i] <= sum*k/100
+        => if a[i] is greater, 
+           need to inc mid (to inc sum)
+           else, need to dec mid
+    */    
+
+    ll l = 0, r = 1e14, ans = 0; 
     while (l <= r) {
         ll mid = l + (r - l) / 2;
         ll sum = a[0] + mid;
@@ -33,10 +42,7 @@ void solve() {
     cout << ans << "\n"; // Output ans
 }
 
-    
     // always remember to put endl after a test case
-
-
 
 int main(){
     int t;
