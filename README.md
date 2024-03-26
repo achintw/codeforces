@@ -3,6 +3,8 @@
 ```
 #include <bits/stdc++.h>
 #define ll long long
+#define ff(n) for(int i=0;i<n;i++)
+#define pb push_back
 using namespace std;
 
 void solve(){
