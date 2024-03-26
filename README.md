@@ -8,6 +8,10 @@
 #define pb push_back
 #define all(x) begin(x), end(x)
 #define allr(x) rbegin(x), rend(x)
+#define st10 st.rbegin()->first
+#define st11 st.rbegin()->second
+#define st00 st.begin()->first
+#define st01 st.begin()->second
 using namespace std;
 
 void solve(){
