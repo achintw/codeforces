@@ -1,10 +1,13 @@
 
-# Boilerplate
+# Boilerplate 
 ```
 #include <bits/stdc++.h>
 #define ll long long
+#define int long long
 #define ff(n) for(int i=0;i<n;i++)
 #define pb push_back
+#define all(x) begin(x), end(x)
+#define allr(x) rbegin(x), rend(x)
 using namespace std;
 
 void solve(){
