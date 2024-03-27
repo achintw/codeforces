@@ -8,6 +8,8 @@
 #define pb push_back
 #define all(x) begin(x), end(x)
 #define allr(x) rbegin(x), rend(x)
+#define st1 st.rbegin()
+#define st0 st.begin()
 #define st10 st.rbegin()->first
 #define st11 st.rbegin()->second
 #define st00 st.begin()->first
