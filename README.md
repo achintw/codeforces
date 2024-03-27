@@ -3,7 +3,6 @@
 ```
 #include <bits/stdc++.h>
 #define ll long long
-#define int long long
 #define ff(n) for(int i=0;i<n;i++)
 #define pb push_back
 #define all(x) begin(x), end(x)
@@ -33,6 +32,6 @@ int main(){
     while(t--){
         solve();
     }
-    return 0ll;
+    return 0;
 }
 ```
